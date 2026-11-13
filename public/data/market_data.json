@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13 15:03:17 CST",
+  "lastUpdated": "2026-11-13 15:06:41 CST",
   "dataSource": "AkShare + FRED API + Local QMT 60m Engine",
   "macroQuadrant": "再通胀交易窗口 / 狭义流动性充裕",
   "macroAnchors": [
@@ -7,18 +7,18 @@
       "id": "tips10y",
       "name": "10Y TIPS 实际利率",
       "code": "FRED: DFII10",
-      "value": "1.82%",
-      "change": "-6 bps",
-      "trend": "down",
+      "value": "2.78%",
+      "change": "+12 bps",
+      "trend": "up",
       "signal": "利多黄金/有色",
       "spark": [
-        2.05,
-        2.01,
-        1.96,
-        1.94,
-        1.89,
-        1.86,
-        1.82
+        2.62,
+        2.65,
+        2.64,
+        2.6,
+        2.63,
+        2.66,
+        2.78
       ],
       "desc": "实际利率下行压制美元持有成本，支撑黄金及高弹性资源品估值扩张"
     },
@@ -45,18 +45,17 @@
       "id": "net_liq",
       "name": "美联储净流动性",
       "code": "WALCL-TGA-ONRRP",
-      "value": "$6.18T",
-      "change": "+$42B (周)",
+      "value": "$5.79T",
+      "change": "+40B (周)",
       "trend": "up",
       "signal": "准备金充裕",
       "spark": [
-        6.02,
-        6.05,
-        6.08,
-        6.1,
-        6.12,
-        6.14,
-        6.18
+        5.79,
+        5.87,
+        5.87,
+        5.8,
+        5.75,
+        5.79
       ],
       "desc": "TGA账户释放叠加ON RRP见底，商业银行准备金余额维持高位"
     },
