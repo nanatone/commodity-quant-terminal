@@ -1,0 +1,624 @@
+{
+  "lastUpdated": "2026-11-09 15:15:00 CST",
+  "dataSource": "AkShare + FRED API + Local QMT 60m Engine",
+  "macroQuadrant": "再通胀交易窗口 / 狭义流动性充裕",
+  "macroAnchors": [
+    {
+      "id": "tips10y",
+      "name": "10Y TIPS 实际利率",
+      "code": "FRED: DFII10",
+      "value": "1.82%",
+      "change": "-6 bps",
+      "trend": "down",
+      "signal": "利多黄金/有色",
+      "spark": [
+        2.05,
+        2.01,
+        1.96,
+        1.94,
+        1.89,
+        1.86,
+        1.82
+      ],
+      "desc": "实际利率下行压制美元持有成本，支撑黄金及高弹性资源品估值扩张"
+    },
+    {
+      "id": "dxy",
+      "name": "美元指数 (DXY)",
+      "code": "ICE: DXY",
+      "value": "102.45",
+      "change": "-0.38%",
+      "trend": "down",
+      "signal": "弱美元周期",
+      "spark": [
+        104.2,
+        103.8,
+        103.5,
+        103.1,
+        102.9,
+        102.7,
+        102.45
+      ],
+      "desc": "非美央行利差收窄，大宗商品计价货币压制解除"
+    },
+    {
+      "id": "net_liq",
+      "name": "美联储净流动性",
+      "code": "WALCL-TGA-ONRRP",
+      "value": "$6.18T",
+      "change": "+$42B (周)",
+      "trend": "up",
+      "signal": "准备金充裕",
+      "spark": [
+        6.02,
+        6.05,
+        6.08,
+        6.1,
+        6.12,
+        6.14,
+        6.18
+      ],
+      "desc": "TGA账户释放叠加ON RRP见底，商业银行准备金余额维持高位"
+    },
+    {
+      "id": "gold_oil",
+      "name": "金油比 (Gold/WTI)",
+      "code": "XAU / CL",
+      "value": "37.8x",
+      "change": "-1.2x",
+      "trend": "down",
+      "signal": "工业通胀修复",
+      "spark": [
+        40.5,
+        39.8,
+        39.2,
+        38.9,
+        38.5,
+        38.1,
+        37.8
+      ],
+      "desc": "金油比自高位回落，表明原油及工业品相对贵金属开启补涨共振"
+    },
+    {
+      "id": "cop_gold",
+      "name": "铜金比 (Copper/Gold)",
+      "code": "HG / XAU (x1000)",
+      "value": "3.64",
+      "change": "+0.09",
+      "trend": "up",
+      "signal": "全球制造业回暖",
+      "spark": [
+        3.42,
+        3.45,
+        3.49,
+        3.53,
+        3.56,
+        3.6,
+        3.64
+      ],
+      "desc": "电网CapEx与AI数据中心电力配套拉动铜需求，铜金比底部抬升"
+    }
+  ],
+  "commodities": [
+    {
+      "id": "gold",
+      "sector": "贵金属",
+      "name": "SHFE 黄金 / COMEX Gold",
+      "code": "AU2612 / GCZ6",
+      "futuresPrice": 628.5,
+      "spotPrice": 631.2,
+      "unit": "元/克",
+      "changePct": 1.45,
+      "basis": 2.7,
+      "basisPct": 0.43,
+      "structure": "Back (现货升水)",
+      "invLevel": "18.5%",
+      "invPercentile": 18.5,
+      "invWeeklyChange": "-3.2%",
+      "cycleStage": "央行购金+降息共振",
+      "firstHandNote": "水贝批发市场投资金条加工费回升至+12元/克，上海金溢价维持正值，亚洲实金买盘依然坚挺。",
+      "forwardCurve": [
+        631.2,
+        628.5,
+        627.8,
+        626.9,
+        626.0,
+        625.2
+      ],
+      "basisHistory": [
+        {
+          "date": "W-5",
+          "basis": -1.2,
+          "inv": 28
+        },
+        {
+          "date": "W-4",
+          "basis": 0.5,
+          "inv": 25
+        },
+        {
+          "date": "W-3",
+          "basis": 1.4,
+          "inv": 23
+        },
+        {
+          "date": "W-2",
+          "basis": 1.9,
+          "inv": 21
+        },
+        {
+          "date": "W-1",
+          "basis": 2.3,
+          "inv": 19.5
+        },
+        {
+          "date": "本周",
+          "basis": 2.7,
+          "inv": 18.5
+        }
+      ]
+    },
+    {
+      "id": "copper",
+      "sector": "有色金属",
+      "name": "SHFE 阴极铜 / LME Copper",
+      "code": "CU2612 / HGZ6",
+      "futuresPrice": 78450,
+      "spotPrice": 78920,
+      "unit": "元/吨",
+      "changePct": 2.18,
+      "basis": 470,
+      "basisPct": 0.6,
+      "structure": "Strong Back (强升水)",
+      "invLevel": "14.2%",
+      "invPercentile": 14.2,
+      "invWeeklyChange": "-8.6%",
+      "cycleStage": "主动去库尾声 -> 补库启动",
+      "firstHandNote": "进口铜精矿TC现货指数跌破6.5美元/干吨，华东主流冶炼厂联合检修落地，下游线缆与特高压变压器排产环比+14%。",
+      "forwardCurve": [
+        78920,
+        78450,
+        78100,
+        77750,
+        77400,
+        77150
+      ],
+      "basisHistory": [
+        {
+          "date": "W-5",
+          "basis": -180,
+          "inv": 34
+        },
+        {
+          "date": "W-4",
+          "basis": -50,
+          "inv": 29
+        },
+        {
+          "date": "W-3",
+          "basis": 120,
+          "inv": 24
+        },
+        {
+          "date": "W-2",
+          "basis": 260,
+          "inv": 19
+        },
+        {
+          "date": "W-1",
+          "basis": 390,
+          "inv": 16
+        },
+        {
+          "date": "本周",
+          "basis": 470,
+          "inv": 14.2
+        }
+      ]
+    },
+    {
+      "id": "alumina",
+      "sector": "有色金属",
+      "name": "SHFE 氧化铝 / 电解铝",
+      "code": "AO2612 / AL2612",
+      "futuresPrice": 4860,
+      "spotPrice": 5120,
+      "unit": "元/吨",
+      "changePct": 3.12,
+      "basis": 260,
+      "basisPct": 5.35,
+      "structure": "Deep Back (极度升水)",
+      "invLevel": "8.4%",
+      "invPercentile": 8.4,
+      "invWeeklyChange": "-11.4%",
+      "cycleStage": "现货逼仓 / 供给刚性短缺",
+      "firstHandNote": "几内亚铝土矿发运受雨季余波及港口检修影响，晋豫国产矿复产缓慢，西南电解铝厂冬储补库迫切，现货一口价成交跳涨。",
+      "forwardCurve": [
+        5120,
+        4860,
+        4620,
+        4410,
+        4250,
+        4120
+      ],
+      "basisHistory": [
+        {
+          "date": "W-5",
+          "basis": 80,
+          "inv": 22
+        },
+        {
+          "date": "W-4",
+          "basis": 115,
+          "inv": 18
+        },
+        {
+          "date": "W-3",
+          "basis": 150,
+          "inv": 15
+        },
+        {
+          "date": "W-2",
+          "basis": 195,
+          "inv": 12
+        },
+        {
+          "date": "W-1",
+          "basis": 230,
+          "inv": 9.8
+        },
+        {
+          "date": "本周",
+          "basis": 260,
+          "inv": 8.4
+        }
+      ]
+    },
+    {
+      "id": "crude",
+      "sector": "能源化工",
+      "name": "INE 原油 / WTI Crude",
+      "code": "SC2612 / CLZ6",
+      "futuresPrice": 542.6,
+      "spotPrice": 548.0,
+      "unit": "元/桶",
+      "changePct": 0.95,
+      "basis": 5.4,
+      "basisPct": 1.0,
+      "structure": "Backwardation (近月升水)",
+      "invLevel": "31.0%",
+      "invPercentile": 31.0,
+      "invWeeklyChange": "-2.1%",
+      "cycleStage": "地缘溢价 + 库欣低库存",
+      "firstHandNote": "山东地炼常减压开工率回升至61.8%，主营炼厂柴油裂解价差企稳，中东OSP官价小幅上调0.3美元/桶。",
+      "forwardCurve": [
+        548.0,
+        542.6,
+        538.2,
+        534.5,
+        531.0,
+        528.5
+      ],
+      "basisHistory": [
+        {
+          "date": "W-5",
+          "basis": 1.2,
+          "inv": 38
+        },
+        {
+          "date": "W-4",
+          "basis": 2.0,
+          "inv": 36
+        },
+        {
+          "date": "W-3",
+          "basis": 3.1,
+          "inv": 35
+        },
+        {
+          "date": "W-2",
+          "basis": 3.8,
+          "inv": 33
+        },
+        {
+          "date": "W-1",
+          "basis": 4.6,
+          "inv": 32
+        },
+        {
+          "date": "本周",
+          "basis": 5.4,
+          "inv": 31
+        }
+      ]
+    },
+    {
+      "id": "rebar",
+      "sector": "黑色建材",
+      "name": "SHFE 螺纹钢 / 铁矿石",
+      "code": "RB2701 / I2701",
+      "futuresPrice": 3480,
+      "spotPrice": 3450,
+      "unit": "元/吨",
+      "changePct": -0.62,
+      "basis": -30,
+      "basisPct": -0.86,
+      "structure": "Contango (期货升水)",
+      "invLevel": "46.5%",
+      "invPercentile": 46.5,
+      "invWeeklyChange": "+1.4%",
+      "cycleStage": "淡季累库观察期",
+      "firstHandNote": "247家钢厂高炉铁水日均产量234.5万吨，北方赶工进入尾声，贸易商冬储意愿偏谨慎，等待钢厂出台保价政策。",
+      "forwardCurve": [
+        3450,
+        3480,
+        3510,
+        3535,
+        3550,
+        3560
+      ],
+      "basisHistory": [
+        {
+          "date": "W-5",
+          "basis": 45,
+          "inv": 39
+        },
+        {
+          "date": "W-4",
+          "basis": 20,
+          "inv": 40
+        },
+        {
+          "date": "W-3",
+          "basis": 5,
+          "inv": 42
+        },
+        {
+          "date": "W-2",
+          "basis": -10,
+          "inv": 44
+        },
+        {
+          "date": "W-1",
+          "basis": -22,
+          "inv": 45.2
+        },
+        {
+          "date": "本周",
+          "basis": -30,
+          "inv": 46.5
+        }
+      ]
+    },
+    {
+      "id": "tungsten",
+      "sector": "战略小金属",
+      "name": "黑钨精矿 / 仲钨酸铵(APT)",
+      "code": "SPOT-W / APT-88.5%",
+      "futuresPrice": 143500,
+      "spotPrice": 146000,
+      "unit": "元/吨",
+      "changePct": 2.85,
+      "basis": 2500,
+      "basisPct": 1.74,
+      "structure": "Spot Tight (现货惜售)",
+      "invLevel": "11.0%",
+      "invPercentile": 11.0,
+      "invWeeklyChange": "-6.5%",
+      "cycleStage": "开采配额收紧 + 光伏钨丝放量",
+      "firstHandNote": "赣州钨协指导价与章源钨业长单价连续三旬上调，矿山环保督察常态化，下游硬质合金及PCB微钻订单饱满。",
+      "forwardCurve": [
+        146000,
+        145000,
+        144200,
+        143500,
+        143000,
+        142500
+      ],
+      "basisHistory": [
+        {
+          "date": "W-5",
+          "basis": 800,
+          "inv": 20
+        },
+        {
+          "date": "W-4",
+          "basis": 1200,
+          "inv": 18
+        },
+        {
+          "date": "W-3",
+          "basis": 1500,
+          "inv": 16
+        },
+        {
+          "date": "W-2",
+          "basis": 1800,
+          "inv": 14
+        },
+        {
+          "date": "W-1",
+          "basis": 2200,
+          "inv": 12.5
+        },
+        {
+          "date": "本周",
+          "basis": 2500,
+          "inv": 11.0
+        }
+      ]
+    }
+  ],
+  "equityPool": [
+    {
+      "code": "601899.SH",
+      "name": "紫金矿业",
+      "board": "主板 (10cm)",
+      "commodity": "铜 / 黄金",
+      "price": 18.42,
+      "changePct": 3.85,
+      "volRatio60m": 1.58,
+      "dailyGreenAboveMid": true,
+      "distFromMidAtr": 1.35,
+      "exp2Trend": "多头排列 (MID > EXP2)",
+      "selfSufficiency": "矿产铜107万吨/金72吨",
+      "resonanceScore": 94,
+      "positionAction": "Full (1/1 全仓确认)",
+      "ruleNote": "60m量比1.58x >= 1.4MA5，日线阳线站稳MID，符合主升浪共振"
+    },
+    {
+      "code": "300139.SZ",
+      "name": "晓程科技",
+      "board": "创业板 (20cm)",
+      "commodity": "黄金 (加纳金矿)",
+      "price": 19.85,
+      "changePct": 8.42,
+      "volRatio60m": 1.92,
+      "dailyGreenAboveMid": true,
+      "distFromMidAtr": 2.45,
+      "exp2Trend": "强加速突破",
+      "selfSufficiency": "海外三大金矿100%权益",
+      "resonanceScore": 96,
+      "positionAction": "Hold/Exempt (触发stop5.5豁免)",
+      "ruleNote": "日线站上MID且为大阳线，虽偏离2.45 ATR (<3ATR)，豁免洗盘止损并持有"
+    },
+    {
+      "code": "920088.BJ",
+      "name": "科力股份",
+      "board": "北交所 (30cm)",
+      "commodity": "原油 / 油田工程技术",
+      "price": 28.6,
+      "changePct": 11.25,
+      "volRatio60m": 1.65,
+      "dailyGreenAboveMid": true,
+      "distFromMidAtr": 1.82,
+      "exp2Trend": "多头排列 (60m突破)",
+      "selfSufficiency": "中石油/CNOOC核心油服商",
+      "resonanceScore": 91,
+      "positionAction": "Full (1/1 全仓确认)",
+      "ruleNote": "北交所30cm高弹性标的，60m放量突破1.4x MA5且涨幅>5%，触发满仓条件"
+    },
+    {
+      "code": "000807.SZ",
+      "name": "云铝股份",
+      "board": "主板 (10cm)",
+      "commodity": "氧化铝 / 绿电铝",
+      "price": 15.76,
+      "changePct": 5.42,
+      "volRatio60m": 1.46,
+      "dailyGreenAboveMid": true,
+      "distFromMidAtr": 0.92,
+      "exp2Trend": "多头排列 (贴近MID起跳)",
+      "selfSufficiency": "氧化铝140万吨/绿电铝305万吨",
+      "resonanceScore": 93,
+      "positionAction": "Full (1/1 极佳买点)",
+      "ruleNote": "日线阳线且距离MID仅0.92 ATR (<1ATR黄金区)，60m量比1.46x共振确认"
+    },
+    {
+      "code": "836807.BJ",
+      "name": "奔朗新材",
+      "board": "北交所 (30cm)",
+      "commodity": "钨 / 超硬材料稀土永磁",
+      "price": 14.3,
+      "changePct": 6.15,
+      "volRatio60m": 1.18,
+      "dailyGreenAboveMid": true,
+      "distFromMidAtr": 0.78,
+      "exp2Trend": "60m金叉初现",
+      "selfSufficiency": "金刚石/硬质合金工具龙头",
+      "resonanceScore": 86,
+      "positionAction": "Half (1/2 试仓信号)",
+      "ruleNote": "60m量比1.18x (>=1.05 MA5)，日线距MID <1ATR，先建1/2底仓等待二次放量"
+    },
+    {
+      "code": "300191.SZ",
+      "name": "潜能恒信",
+      "board": "创业板 (20cm)",
+      "commodity": "原油 (渤海/南海油气区块)",
+      "price": 16.9,
+      "changePct": 4.32,
+      "volRatio60m": 1.12,
+      "dailyGreenAboveMid": true,
+      "distFromMidAtr": 1.15,
+      "exp2Trend": "回踩60m MID企稳",
+      "selfSufficiency": "油气勘探开发分成权益",
+      "resonanceScore": 85,
+      "positionAction": "Half (1/2 试仓信号)",
+      "ruleNote": "60m量比1.12x达标试仓线，等待60m大阳线(>=5%)触发加满"
+    },
+    {
+      "code": "688122.SH",
+      "name": "西部超导",
+      "board": "科创板 (20cm)",
+      "commodity": "战略金属 (高端钛合金/超导)",
+      "price": 48.2,
+      "changePct": 2.95,
+      "volRatio60m": 1.08,
+      "dailyGreenAboveMid": true,
+      "distFromMidAtr": 0.65,
+      "exp2Trend": "窄幅蓄势高于EXP2",
+      "selfSufficiency": "军用钛材与超导磁体寡头",
+      "resonanceScore": 83,
+      "positionAction": "Half (1/2 试仓信号)",
+      "ruleNote": "量比温和放大至1.08x，处于<1ATR低风险蓄势区"
+    },
+    {
+      "code": "600547.SH",
+      "name": "山东黄金",
+      "board": "主板 (10cm)",
+      "commodity": "黄金",
+      "price": 29.15,
+      "changePct": -0.85,
+      "volRatio60m": 0.82,
+      "dailyGreenAboveMid": false,
+      "distFromMidAtr": 2.15,
+      "exp2Trend": "高位缩量整理",
+      "selfSufficiency": "矿产金约45吨",
+      "resonanceScore": 72,
+      "positionAction": "Halve (减半仓位风控)",
+      "ruleNote": "日线收阴且偏离MID达2.15 ATR，不享受阳线豁免，执行高位减半锁利"
+    }
+  ],
+  "fieldNotes": [
+    {
+      "id": 1,
+      "time": "2026-11-09 14:20",
+      "category": "有色金属 · 铜/铝",
+      "source": "华东现货贸易商 / 上海有色网(SMM)一手调研",
+      "title": "洋山铜溢价跳涨至$68/吨，氧化铝北方现货成交突破5150元",
+      "content": "今日上午常州及无锡仓库出库量环比大增22%，下游电力电缆企业趁盘面回调积极点价。山西地区两家大型氧化铝厂因焙烧炉检修减产15万吨/年，贸易商惜售情绪浓厚，升水结构进一步陡峭化。",
+      "impact": "利多 (Bullish)",
+      "linkedTickers": [
+        "601899.SH",
+        "000807.SZ"
+      ]
+    },
+    {
+      "id": 2,
+      "time": "2026-11-09 10:45",
+      "category": "战略小金属 · 钨/稀土",
+      "source": "赣州钨协 & 矿山草根调研",
+      "title": "11月上半月黑钨精矿长单指导价上调2500元/标吨",
+      "content": "江西及湖南主产区矿山开工率受年底安全环保检查制约维持低位，APT冶炼厂原料库存不足10天，下游硬质合金及北交所超硬材料链条顺价顺畅。",
+      "impact": "强利多 (Strong Bullish)",
+      "linkedTickers": [
+        "836807.BJ",
+        "000657.SZ"
+      ]
+    },
+    {
+      "id": 3,
+      "time": "2026-11-08 21:30",
+      "category": "宏观流动性 · 美联储资产负债表",
+      "source": "Fed H.4.1 周报 & 财政部TGA日报",
+      "title": "TGA账户单周释放380亿美元，准备金余额重回3.28万亿美元上方",
+      "content": "美国财政部短债净发行放缓，ON RRP余额维持在低位震荡，狭义银行体系流动性充裕，10年期TIPS实际收益率跌破1.85%关键支撑，金铜共振窗口延续。",
+      "impact": "宏观顺风 (Macro Tailwind)",
+      "linkedTickers": [
+        "300139.SZ",
+        "601899.SH",
+        "920088.BJ"
+      ]
+    }
+  ]
+}
