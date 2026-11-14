@@ -45,6 +45,7 @@ jobs:
       - name: 4. Run Macro & 60m Quant Fetch Script
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          TUSHARE_TOKEN: ${{ secrets.TUSHARE_TOKEN }}
         run: |
           python scripts/fetch_data.py
 
