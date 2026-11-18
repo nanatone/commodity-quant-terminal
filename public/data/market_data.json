@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18 15:50:43 CST",
+  "lastUpdated": "2026-11-18 20:09:06 CST",
   "dataSource": "Tushare Pro (日线/期货/申万行业) + FRED API + Sina 60m Engine",
   "macroQuadrant": "再通胀交易窗口 / 狭义流动性充裕",
   "macroAnchors": [
@@ -25,8 +25,8 @@
       "id": "dxy",
       "name": "美元指数 (DXY)",
       "code": "ICE: DXY",
-      "value": "103.66",
-      "change": "+0.18%",
+      "value": "103.76",
+      "change": "+0.27%",
       "trend": "up",
       "signal": "美元偏强震荡",
       "spark": [
@@ -36,7 +36,7 @@
         103.41,
         103.58,
         103.48,
-        103.66
+        103.76
       ],
       "desc": "非美央行利差收窄，大宗商品计价货币压制解除"
     },
@@ -62,8 +62,8 @@
       "id": "gold_oil",
       "name": "金油比 (Gold/WTI)",
       "code": "XAU / CL",
-      "value": "45.4x",
-      "change": "-0.2x",
+      "value": "44.9x",
+      "change": "-0.7x",
       "trend": "down",
       "signal": "工业通胀修复",
       "spark": [
@@ -73,7 +73,7 @@
         43.7,
         45.4,
         45.6,
-        45.4
+        44.9
       ],
       "desc": "金油比自高位回落，表明原油及工业品相对贵金属开启补涨共振"
     },
@@ -81,8 +81,8 @@
       "id": "cop_gold",
       "name": "铜金比 (Copper/Gold)",
       "code": "HG / XAU (x1000)",
-      "value": "3.45",
-      "change": "-0.04",
+      "value": "3.43",
+      "change": "-0.06",
       "trend": "down",
       "signal": "避险强于顺周期",
       "spark": [
@@ -92,7 +92,7 @@
         3.49,
         3.47,
         3.49,
-        3.45
+        3.43
       ],
       "desc": "电网CapEx与AI数据中心电力配套拉动铜需求，铜金比底部抬升"
     }
@@ -505,12 +505,12 @@
       "changePct": -1.94,
       "volRatio60m": 0.81,
       "dailyGreenAboveMid": false,
-      "distFromMidAtr": 2.86,
+      "distFromMidAtr": 3.17,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "氧化铝140万吨/绿电铝305万吨",
       "resonanceScore": 65,
       "positionAction": "Halve (超ATR上限减半)",
-      "ruleNote": "60m量比 0.81x，距MID 2.86 ATR，日线收阴或未站稳MID；申万铝 -0.02%"
+      "ruleNote": "60m量比 0.81x，距MID 3.17 ATR，日线收阴或未站稳MID；行业共振跟踪中"
     },
     {
       "code": "920807.BJ",
@@ -572,9 +572,9 @@
       "distFromMidAtr": 1.33,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "矿产金约45吨",
-      "resonanceScore": 70,
+      "resonanceScore": 65,
       "positionAction": "Wait (缩量观察)",
-      "ruleNote": "60m量比 0.76x，距MID 1.33 ATR，日线收阴或未站稳MID；申万黄金 +2.08%"
+      "ruleNote": "60m量比 0.76x，距MID 1.33 ATR，日线收阴或未站稳MID；行业共振跟踪中"
     }
   ],
   "fieldNotes": [
