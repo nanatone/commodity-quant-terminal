@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20 20:03:06 CST",
+  "lastUpdated": "2026-11-21 00:09:22 CST",
   "dataSource": "Tushare Pro (日线/期货/申万行业) + FRED API + Sina 60m Engine",
   "macroQuadrant": "再通胀交易窗口 / 狭义流动性充裕",
   "macroAnchors": [
@@ -62,8 +62,8 @@
       "id": "gold_oil",
       "name": "金油比 (Gold/WTI)",
       "code": "XAU / CL",
-      "value": "42.8x",
-      "change": "-0.8x",
+      "value": "43.4x",
+      "change": "-0.2x",
       "trend": "down",
       "signal": "工业通胀修复",
       "spark": [
@@ -73,7 +73,7 @@
         45.6,
         45.5,
         43.6,
-        42.8
+        43.4
       ],
       "desc": "金油比自高位回落，表明原油及工业品相对贵金属开启补涨共振"
     },
@@ -81,8 +81,8 @@
       "id": "cop_gold",
       "name": "铜金比 (Copper/Gold)",
       "code": "HG / XAU (x1000)",
-      "value": "3.47",
-      "change": "+0.02",
+      "value": "3.48",
+      "change": "+0.03",
       "trend": "up",
       "signal": "全球制造业回暖",
       "spark": [
@@ -92,7 +92,7 @@
         3.49,
         3.4,
         3.45,
-        3.47
+        3.48
       ],
       "desc": "电网CapEx与AI数据中心电力配套拉动铜需求，铜金比底部抬升"
     }
