@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20 00:34:06 CST",
+  "lastUpdated": "2026-11-20 15:39:00 CST",
   "dataSource": "Tushare Pro (日线/期货/申万行业) + FRED API + Sina 60m Engine",
   "macroQuadrant": "再通胀交易窗口 / 狭义流动性充裕",
   "macroAnchors": [
@@ -7,17 +7,17 @@
       "id": "tips10y",
       "name": "10Y TIPS 实际利率",
       "code": "FRED: DFII10",
-      "value": "2.89%",
-      "change": "-3 bps",
+      "value": "2.88%",
+      "change": "-1 bps",
       "trend": "down",
       "signal": "实际利率回落·利多金铜",
       "spark": [
-        2.66,
         2.78,
         2.86,
         2.91,
         2.92,
-        2.89
+        2.89,
+        2.88
       ],
       "desc": "实际利率下行压制美元持有成本，支撑黄金及高弹性资源品估值扩张"
     },
@@ -25,18 +25,18 @@
       "id": "dxy",
       "name": "美元指数 (DXY)",
       "code": "ICE: DXY",
-      "value": "103.86",
-      "change": "+0.06%",
-      "trend": "up",
+      "value": "103.80",
+      "change": "-0.14%",
+      "trend": "down",
       "signal": "美元偏强震荡",
       "spark": [
-        102.91,
         103.17,
         103.41,
         103.58,
         103.48,
         103.79,
-        103.86
+        103.94,
+        103.8
       ],
       "desc": "非美央行利差收窄，大宗商品计价货币压制解除"
     },
@@ -44,17 +44,17 @@
       "id": "net_liq",
       "name": "美联储净流动性",
       "code": "WALCL-TGA-ONRRP",
-      "value": "$5.79T",
-      "change": "+40B (周)",
+      "value": "$5.84T",
+      "change": "+50B (周)",
       "trend": "up",
       "signal": "准备金充裕",
       "spark": [
-        5.79,
         5.87,
         5.87,
         5.8,
         5.75,
-        5.79
+        5.79,
+        5.84
       ],
       "desc": "TGA账户释放叠加ON RRP见底，商业银行准备金余额维持高位"
     },
@@ -62,18 +62,18 @@
       "id": "gold_oil",
       "name": "金油比 (Gold/WTI)",
       "code": "XAU / CL",
-      "value": "44.2x",
-      "change": "-1.3x",
+      "value": "42.8x",
+      "change": "-0.8x",
       "trend": "down",
       "signal": "工业通胀修复",
       "spark": [
-        46.2,
         43.8,
         43.7,
         45.4,
         45.6,
         45.5,
-        44.2
+        43.6,
+        42.8
       ],
       "desc": "金油比自高位回落，表明原油及工业品相对贵金属开启补涨共振"
     },
@@ -81,18 +81,18 @@
       "id": "cop_gold",
       "name": "铜金比 (Copper/Gold)",
       "code": "HG / XAU (x1000)",
-      "value": "3.44",
-      "change": "+0.04",
+      "value": "3.47",
+      "change": "+0.02",
       "trend": "up",
       "signal": "全球制造业回暖",
       "spark": [
-        3.46,
         3.52,
         3.49,
         3.47,
         3.49,
         3.4,
-        3.44
+        3.45,
+        3.47
       ],
       "desc": "电网CapEx与AI数据中心电力配套拉动铜需求，铜金比底部抬升"
     }
@@ -455,14 +455,14 @@
       "commodity": "铜 / 黄金",
       "price": 23.88,
       "changePct": -2.61,
-      "volRatio60m": 0.77,
+      "volRatio60m": 1.51,
       "dailyGreenAboveMid": false,
       "distFromMidAtr": 2.9,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "矿产铜107万吨/金72吨",
-      "resonanceScore": 62,
+      "resonanceScore": 74,
       "positionAction": "Halve (超ATR上限减半)",
-      "ruleNote": "60m量比 0.77x，距MID 2.90 ATR，日线收阴或未站稳MID；申万铜 -2.05%"
+      "ruleNote": "60m量比 1.51x，距MID 2.90 ATR，日线收阴或未站稳MID；申万铜 -2.05%"
     },
     {
       "code": "300139.SZ",
@@ -471,14 +471,14 @@
       "commodity": "黄金 (加纳金矿)",
       "price": 33.63,
       "changePct": -2.83,
-      "volRatio60m": 0.74,
+      "volRatio60m": 0.78,
       "dailyGreenAboveMid": false,
       "distFromMidAtr": 1.04,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "海外三大金矿100%权益",
       "resonanceScore": 65,
       "positionAction": "Wait (缩量观察)",
-      "ruleNote": "60m量比 0.74x，距MID 1.04 ATR，日线收阴或未站稳MID；申万黄金 -0.49%"
+      "ruleNote": "60m量比 0.78x，距MID 1.04 ATR，日线收阴或未站稳MID；申万黄金 -0.49%"
     },
     {
       "code": "920088.BJ",
@@ -487,14 +487,14 @@
       "commodity": "原油 / 油田工程技术",
       "price": 30.29,
       "changePct": -4.15,
-      "volRatio60m": 0.93,
+      "volRatio60m": 0.86,
       "dailyGreenAboveMid": false,
       "distFromMidAtr": 3.37,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "中石油/CNOOC核心油服商",
       "resonanceScore": 62,
       "positionAction": "Halve (超ATR上限减半)",
-      "ruleNote": "60m量比 0.93x，距MID 3.37 ATR，日线收阴或未站稳MID；申万油服工程 -1.66%"
+      "ruleNote": "60m量比 0.86x，距MID 3.37 ATR，日线收阴或未站稳MID；申万油服工程 -1.66%"
     },
     {
       "code": "000807.SZ",
@@ -503,14 +503,14 @@
       "commodity": "氧化铝 / 绿电铝",
       "price": 21.35,
       "changePct": -4.0,
-      "volRatio60m": 1.16,
+      "volRatio60m": 0.93,
       "dailyGreenAboveMid": false,
       "distFromMidAtr": 3.82,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "氧化铝140万吨/绿电铝305万吨",
-      "resonanceScore": 69,
+      "resonanceScore": 62,
       "positionAction": "Halve (超ATR上限减半)",
-      "ruleNote": "60m量比 1.16x，距MID 3.82 ATR，日线收阴或未站稳MID；申万铝 -2.31%"
+      "ruleNote": "60m量比 0.93x，距MID 3.82 ATR，日线收阴或未站稳MID；申万铝 -2.31%"
     },
     {
       "code": "920807.BJ",
@@ -519,14 +519,14 @@
       "commodity": "钨 / 超硬材料稀土永磁",
       "price": 6.91,
       "changePct": -4.95,
-      "volRatio60m": 1.12,
+      "volRatio60m": 1.66,
       "dailyGreenAboveMid": false,
       "distFromMidAtr": 2.94,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "金刚石/硬质合金工具龙头",
-      "resonanceScore": 72,
+      "resonanceScore": 77,
       "positionAction": "Halve (超ATR上限减半)",
-      "ruleNote": "60m量比 1.12x，距MID 2.94 ATR，日线收阴或未站稳MID；申万小金属 -0.60%"
+      "ruleNote": "60m量比 1.66x，距MID 2.94 ATR，日线收阴或未站稳MID；申万小金属 -0.60%"
     },
     {
       "code": "300191.SZ",
@@ -535,14 +535,14 @@
       "commodity": "原油 (渤海/南海油气区块)",
       "price": 20.59,
       "changePct": -2.23,
-      "volRatio60m": 0.93,
+      "volRatio60m": 1.47,
       "dailyGreenAboveMid": false,
       "distFromMidAtr": 3.52,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "油气勘探开发分成权益",
-      "resonanceScore": 65,
+      "resonanceScore": 77,
       "positionAction": "Halve (超ATR上限减半)",
-      "ruleNote": "60m量比 0.93x，距MID 3.52 ATR，日线收阴或未站稳MID；申万石油石化 -0.72%"
+      "ruleNote": "60m量比 1.47x，距MID 3.52 ATR，日线收阴或未站稳MID；申万石油石化 -0.72%"
     },
     {
       "code": "688122.SH",
@@ -551,14 +551,14 @@
       "commodity": "战略金属 (高端钛合金/超导)",
       "price": 40.74,
       "changePct": 1.8,
-      "volRatio60m": 1.17,
+      "volRatio60m": 1.62,
       "dailyGreenAboveMid": false,
       "distFromMidAtr": 2.39,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "军用钛材与超导磁体寡头",
-      "resonanceScore": 72,
+      "resonanceScore": 77,
       "positionAction": "Halve (超ATR上限减半)",
-      "ruleNote": "60m量比 1.17x，距MID 2.39 ATR，日线收阴或未站稳MID；申万小金属 -0.60%"
+      "ruleNote": "60m量比 1.62x，距MID 2.39 ATR，日线收阴或未站稳MID；申万小金属 -0.60%"
     },
     {
       "code": "600547.SH",
@@ -567,14 +567,14 @@
       "commodity": "黄金",
       "price": 23.65,
       "changePct": 1.55,
-      "volRatio60m": 0.79,
+      "volRatio60m": 0.76,
       "dailyGreenAboveMid": false,
       "distFromMidAtr": 0.97,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "矿产金约45吨",
       "resonanceScore": 65,
       "positionAction": "Wait (缩量观察)",
-      "ruleNote": "60m量比 0.79x，距MID 0.97 ATR，日线收阴或未站稳MID；申万黄金 -0.49%"
+      "ruleNote": "60m量比 0.76x，距MID 0.97 ATR，日线收阴或未站稳MID；申万黄金 -0.49%"
     }
   ],
   "fieldNotes": [
