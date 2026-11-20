@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20 15:39:00 CST",
+  "lastUpdated": "2026-11-20 20:03:06 CST",
   "dataSource": "Tushare Pro (日线/期货/申万行业) + FRED API + Sina 60m Engine",
   "macroQuadrant": "再通胀交易窗口 / 狭义流动性充裕",
   "macroAnchors": [
@@ -25,8 +25,8 @@
       "id": "dxy",
       "name": "美元指数 (DXY)",
       "code": "ICE: DXY",
-      "value": "103.80",
-      "change": "-0.14%",
+      "value": "103.90",
+      "change": "-0.05%",
       "trend": "down",
       "signal": "美元偏强震荡",
       "spark": [
@@ -36,7 +36,7 @@
         103.48,
         103.79,
         103.94,
-        103.8
+        103.9
       ],
       "desc": "非美央行利差收窄，大宗商品计价货币压制解除"
     },
@@ -103,12 +103,12 @@
       "sector": "贵金属",
       "name": "SHFE 黄金 / COMEX Gold",
       "code": "AU2702 / Au99.99",
-      "futuresPrice": 804.32,
-      "spotPrice": 801.93,
+      "futuresPrice": 768.56,
+      "spotPrice": 764.55,
       "unit": "元/克",
-      "changePct": -2.6,
-      "basis": -2.39,
-      "basisPct": -0.3,
+      "changePct": -4.89,
+      "basis": -4.01,
+      "basisPct": -0.52,
       "structure": "Contango (期货升水)",
       "invLevel": "18.5%",
       "invPercentile": 18.5,
@@ -116,12 +116,12 @@
       "cycleStage": "央行购金+降息共振",
       "firstHandNote": "水贝批发市场投资金条加工费回升至+12元/克，上海金溢价维持正值，亚洲实金买盘依然坚挺。",
       "forwardCurve": [
-        801.93,
-        802.14,
-        803.12,
-        804.32,
-        806.46,
-        808.2
+        764.55,
+        766.48,
+        767.68,
+        768.56,
+        770.58,
+        772.42
       ],
       "basisHistory": [
         {
@@ -151,7 +151,7 @@
         },
         {
           "date": "本周",
-          "basis": -2.39,
+          "basis": -4.01,
           "inv": 18.5
         }
       ]
@@ -161,25 +161,25 @@
       "sector": "有色金属",
       "name": "SHFE 阴极铜 / LME Copper",
       "code": "CU2701 / 近月CU2612",
-      "futuresPrice": 94720,
-      "spotPrice": 97290,
+      "futuresPrice": 92400,
+      "spotPrice": 95010,
       "unit": "元/吨",
-      "changePct": -5.07,
-      "basis": 2570,
-      "basisPct": 2.71,
+      "changePct": -3.35,
+      "basis": 2610,
+      "basisPct": 2.82,
       "structure": "Deep Back (极度升水)",
       "invLevel": "14.2%",
       "invPercentile": 14.2,
-      "invWeeklyChange": "+92.6%",
+      "invWeeklyChange": "+89.3%",
       "cycleStage": "主动去库尾声 -> 补库启动",
       "firstHandNote": "进口铜精矿TC现货指数跌破6.5美元/干吨，华东主流冶炼厂联合检修落地，下游线缆与特高压变压器排产环比+14%。",
       "forwardCurve": [
-        97290,
-        97290,
-        94720,
-        94000,
-        93880,
-        93750
+        95010,
+        95010,
+        92400,
+        91700,
+        91460,
+        91440
       ],
       "basisHistory": [
         {
@@ -209,7 +209,7 @@
         },
         {
           "date": "本周",
-          "basis": 2570,
+          "basis": 2610,
           "inv": 14.2
         }
       ]
@@ -219,25 +219,25 @@
       "sector": "有色金属",
       "name": "SHFE 氧化铝 / 电解铝",
       "code": "AO2701 / 近月AO2612",
-      "futuresPrice": 2590,
-      "spotPrice": 2601,
+      "futuresPrice": 2618,
+      "spotPrice": 2608,
       "unit": "元/吨",
-      "changePct": 0.04,
-      "basis": 11,
-      "basisPct": 0.42,
-      "structure": "Strong Back (强升水)",
+      "changePct": 0.96,
+      "basis": -10,
+      "basisPct": -0.38,
+      "structure": "Contango (期货升水)",
       "invLevel": "8.4%",
       "invPercentile": 8.4,
-      "invWeeklyChange": "-11.9%",
+      "invWeeklyChange": "-13.6%",
       "cycleStage": "现货逼仓 / 供给刚性短缺",
       "firstHandNote": "几内亚铝土矿发运受雨季余波及港口检修影响，晋豫国产矿复产缓慢，西南电解铝厂冬储补库迫切，现货一口价成交跳涨。",
       "forwardCurve": [
-        2601,
-        2601,
-        2590,
-        2597,
-        2607,
-        2618
+        2608,
+        2608,
+        2618,
+        2619,
+        2631,
+        2645
       ],
       "basisHistory": [
         {
@@ -267,7 +267,7 @@
         },
         {
           "date": "本周",
-          "basis": 11,
+          "basis": -10,
           "inv": 8.4
         }
       ]
@@ -277,12 +277,12 @@
       "sector": "能源化工",
       "name": "INE 原油 / WTI Crude",
       "code": "SC2701 / 近月SC2612",
-      "futuresPrice": 585.9,
-      "spotPrice": 595.3,
+      "futuresPrice": 591.0,
+      "spotPrice": 600.0,
       "unit": "元/桶",
-      "changePct": -0.59,
-      "basis": 9.4,
-      "basisPct": 1.6,
+      "changePct": 2.44,
+      "basis": 9.0,
+      "basisPct": 1.52,
       "structure": "Deep Back (极度升水)",
       "invLevel": "31.0%",
       "invPercentile": 31.0,
@@ -290,12 +290,12 @@
       "cycleStage": "地缘溢价 + 库欣低库存",
       "firstHandNote": "山东地炼常减压开工率回升至61.8%，主营炼厂柴油裂解价差企稳，中东OSP官价小幅上调0.3美元/桶。",
       "forwardCurve": [
-        595.3,
-        595.3,
-        585.9,
-        576.8,
-        566.5,
-        555.5
+        600.0,
+        600.0,
+        591.0,
+        582.1,
+        571.3,
+        560.4
       ],
       "basisHistory": [
         {
@@ -325,7 +325,7 @@
         },
         {
           "date": "本周",
-          "basis": 9.4,
+          "basis": 9.0,
           "inv": 31
         }
       ]
@@ -335,12 +335,12 @@
       "sector": "黑色建材",
       "name": "SHFE 螺纹钢 / 铁矿石",
       "code": "RB2701 / 近月RB2612",
-      "futuresPrice": 2983,
-      "spotPrice": 3010,
+      "futuresPrice": 2999,
+      "spotPrice": 3020,
       "unit": "元/吨",
-      "changePct": 0.51,
-      "basis": 27,
-      "basisPct": 0.91,
+      "changePct": 0.54,
+      "basis": 21,
+      "basisPct": 0.7,
       "structure": "Strong Back (强升水)",
       "invLevel": "46.5%",
       "invPercentile": 46.5,
@@ -348,12 +348,12 @@
       "cycleStage": "淡季累库观察期",
       "firstHandNote": "247家钢厂高炉铁水日均产量234.5万吨，北方赶工进入尾声，贸易商冬储意愿偏谨慎，等待钢厂出台保价政策。",
       "forwardCurve": [
-        3010,
-        3010,
-        2983,
-        2945,
-        2954,
-        2972
+        3020,
+        3020,
+        2999,
+        2956,
+        2963,
+        2977
       ],
       "basisHistory": [
         {
@@ -383,7 +383,7 @@
         },
         {
           "date": "本周",
-          "basis": 27,
+          "basis": 21,
           "inv": 46.5
         }
       ]
@@ -453,128 +453,128 @@
       "name": "紫金矿业",
       "board": "主板 (10cm)",
       "commodity": "铜 / 黄金",
-      "price": 23.88,
-      "changePct": -2.61,
+      "price": 23.73,
+      "changePct": -0.63,
       "volRatio60m": 1.51,
       "dailyGreenAboveMid": false,
-      "distFromMidAtr": 2.9,
+      "distFromMidAtr": 2.87,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "矿产铜107万吨/金72吨",
       "resonanceScore": 74,
       "positionAction": "Halve (超ATR上限减半)",
-      "ruleNote": "60m量比 1.51x，距MID 2.90 ATR，日线收阴或未站稳MID；申万铜 -2.05%"
+      "ruleNote": "60m量比 1.51x，距MID 2.87 ATR，日线收阴或未站稳MID；申万铜 -1.67%"
     },
     {
       "code": "300139.SZ",
       "name": "晓程科技",
       "board": "创业板 (20cm)",
       "commodity": "黄金 (加纳金矿)",
-      "price": 33.63,
-      "changePct": -2.83,
+      "price": 31.57,
+      "changePct": -6.13,
       "volRatio60m": 0.78,
       "dailyGreenAboveMid": false,
-      "distFromMidAtr": 1.04,
+      "distFromMidAtr": 1.67,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "海外三大金矿100%权益",
-      "resonanceScore": 65,
+      "resonanceScore": 62,
       "positionAction": "Wait (缩量观察)",
-      "ruleNote": "60m量比 0.78x，距MID 1.04 ATR，日线收阴或未站稳MID；申万黄金 -0.49%"
+      "ruleNote": "60m量比 0.78x，距MID 1.67 ATR，日线收阴或未站稳MID；申万黄金 -3.24%"
     },
     {
       "code": "920088.BJ",
       "name": "科力股份",
       "board": "北交所 (30cm)",
       "commodity": "原油 / 油田工程技术",
-      "price": 30.29,
-      "changePct": -4.15,
+      "price": 30.71,
+      "changePct": 1.39,
       "volRatio60m": 0.86,
       "dailyGreenAboveMid": false,
-      "distFromMidAtr": 3.37,
+      "distFromMidAtr": 2.92,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "中石油/CNOOC核心油服商",
       "resonanceScore": 62,
       "positionAction": "Halve (超ATR上限减半)",
-      "ruleNote": "60m量比 0.86x，距MID 3.37 ATR，日线收阴或未站稳MID；申万油服工程 -1.66%"
+      "ruleNote": "60m量比 0.86x，距MID 2.92 ATR，日线收阴或未站稳MID；申万油服工程 -2.15%"
     },
     {
       "code": "000807.SZ",
       "name": "云铝股份",
       "board": "主板 (10cm)",
       "commodity": "氧化铝 / 绿电铝",
-      "price": 21.35,
-      "changePct": -4.0,
+      "price": 21.01,
+      "changePct": -1.59,
       "volRatio60m": 0.93,
       "dailyGreenAboveMid": false,
-      "distFromMidAtr": 3.82,
+      "distFromMidAtr": 4.01,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "氧化铝140万吨/绿电铝305万吨",
       "resonanceScore": 62,
       "positionAction": "Halve (超ATR上限减半)",
-      "ruleNote": "60m量比 0.93x，距MID 3.82 ATR，日线收阴或未站稳MID；申万铝 -2.31%"
+      "ruleNote": "60m量比 0.93x，距MID 4.01 ATR，日线收阴或未站稳MID；申万铝 -1.72%"
     },
     {
       "code": "920807.BJ",
       "name": "奔朗新材",
       "board": "北交所 (30cm)",
       "commodity": "钨 / 超硬材料稀土永磁",
-      "price": 6.91,
-      "changePct": -4.95,
+      "price": 6.47,
+      "changePct": -6.37,
       "volRatio60m": 1.66,
       "dailyGreenAboveMid": false,
-      "distFromMidAtr": 2.94,
+      "distFromMidAtr": 3.91,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "金刚石/硬质合金工具龙头",
-      "resonanceScore": 77,
+      "resonanceScore": 74,
       "positionAction": "Halve (超ATR上限减半)",
-      "ruleNote": "60m量比 1.66x，距MID 2.94 ATR，日线收阴或未站稳MID；申万小金属 -0.60%"
+      "ruleNote": "60m量比 1.66x，距MID 3.91 ATR，日线收阴或未站稳MID；申万小金属 -5.19%"
     },
     {
       "code": "300191.SZ",
       "name": "潜能恒信",
       "board": "创业板 (20cm)",
       "commodity": "原油 (渤海/南海油气区块)",
-      "price": 20.59,
-      "changePct": -2.23,
+      "price": 19.67,
+      "changePct": -4.47,
       "volRatio60m": 1.47,
       "dailyGreenAboveMid": false,
-      "distFromMidAtr": 3.52,
+      "distFromMidAtr": 4.31,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "油气勘探开发分成权益",
-      "resonanceScore": 77,
+      "resonanceScore": 82,
       "positionAction": "Halve (超ATR上限减半)",
-      "ruleNote": "60m量比 1.47x，距MID 3.52 ATR，日线收阴或未站稳MID；申万石油石化 -0.72%"
+      "ruleNote": "60m量比 1.47x，距MID 4.31 ATR，日线收阴或未站稳MID；申万石油石化 +0.31%"
     },
     {
       "code": "688122.SH",
       "name": "西部超导",
       "board": "科创板 (20cm)",
       "commodity": "战略金属 (高端钛合金/超导)",
-      "price": 40.74,
-      "changePct": 1.8,
+      "price": 38.93,
+      "changePct": -4.44,
       "volRatio60m": 1.62,
       "dailyGreenAboveMid": false,
-      "distFromMidAtr": 2.39,
+      "distFromMidAtr": 2.99,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "军用钛材与超导磁体寡头",
-      "resonanceScore": 77,
+      "resonanceScore": 74,
       "positionAction": "Halve (超ATR上限减半)",
-      "ruleNote": "60m量比 1.62x，距MID 2.39 ATR，日线收阴或未站稳MID；申万小金属 -0.60%"
+      "ruleNote": "60m量比 1.62x，距MID 2.99 ATR，日线收阴或未站稳MID；申万小金属 -5.19%"
     },
     {
       "code": "600547.SH",
       "name": "山东黄金",
       "board": "主板 (10cm)",
       "commodity": "黄金",
-      "price": 23.65,
-      "changePct": 1.55,
+      "price": 22.71,
+      "changePct": -3.97,
       "volRatio60m": 0.76,
       "dailyGreenAboveMid": false,
-      "distFromMidAtr": 0.97,
+      "distFromMidAtr": 1.52,
       "exp2Trend": "跌破MID弱势整理",
       "selfSufficiency": "矿产金约45吨",
-      "resonanceScore": 65,
+      "resonanceScore": 62,
       "positionAction": "Wait (缩量观察)",
-      "ruleNote": "60m量比 0.76x，距MID 0.97 ATR，日线收阴或未站稳MID；申万黄金 -0.49%"
+      "ruleNote": "60m量比 0.76x，距MID 1.52 ATR，日线收阴或未站稳MID；申万黄金 -3.24%"
     }
   ],
   "fieldNotes": [
