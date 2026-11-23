@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23 21:30:52 CST",
+  "lastUpdated": "2026-11-24 03:14:32 CST",
   "dataSource": "Tushare Pro (日线/期货/申万行业) + FRED API + Sina 60m Engine",
   "macroQuadrant": "再通胀交易窗口 / 狭义流动性充裕",
   "macroAnchors": [
@@ -25,8 +25,8 @@
       "id": "dxy",
       "name": "美元指数 (DXY)",
       "code": "ICE: DXY",
-      "value": "103.86",
-      "change": "+0.02%",
+      "value": "104.44",
+      "change": "+0.58%",
       "trend": "up",
       "signal": "美元偏强震荡",
       "spark": [
@@ -36,7 +36,7 @@
         103.79,
         103.94,
         103.84,
-        103.86
+        104.44
       ],
       "desc": "非美央行利差收窄，大宗商品计价货币压制解除"
     },
@@ -63,8 +63,8 @@
       "id": "gold_oil",
       "name": "金油比 (Gold/WTI)",
       "code": "XAU / CL",
-      "value": "44.3x",
-      "change": "+2.0x",
+      "value": "45.3x",
+      "change": "+3.0x",
       "trend": "up",
       "signal": "避险溢价走扩",
       "spark": [
@@ -74,7 +74,7 @@
         45.5,
         43.6,
         42.3,
-        44.3
+        45.3
       ],
       "desc": "金油比自高位回落，表明原油及工业品相对贵金属开启补涨共振"
     },
@@ -82,10 +82,10 @@
       "id": "cop_gold",
       "name": "铜金比 (Copper/Gold)",
       "code": "HG / XAU (x1000)",
-      "value": "3.40",
-      "change": "-0.06",
-      "trend": "down",
-      "signal": "避险强于顺周期",
+      "value": "3.46",
+      "change": "+0.00",
+      "trend": "up",
+      "signal": "全球制造业回暖",
       "spark": [
         3.49,
         3.47,
@@ -93,7 +93,7 @@
         3.4,
         3.45,
         3.46,
-        3.4
+        3.46
       ],
       "desc": "电网CapEx与AI数据中心电力配套拉动铜需求，铜金比底部抬升"
     }
